@@ -1,0 +1,7 @@
+# extract feature descriptors using pretrained model weights
+
+expname: feature_extraction
+# replace the following with your pretrained model path, img_dir and out_dir, respectively
+ckpt_path: 'pretrained/caps-pretrained.pth'
+extract_img_dir: '/phoenix/S7/qw246/hpatches-benchmark/data/d2net/hpatches-sequences-release/'
+extract_out_dir: '/phoenix/S7/qw246/hpatches-benchmark/data/output/desc/caps/'

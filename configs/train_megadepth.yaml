@@ -1,0 +1,3 @@
+# training from scratch using a single gpu, default configs in config.py file
+exp_name: train_caps
+datadir: /phoenix/S7/qw246/CAPS-MegaDepth-release-light  # replace with your data dir
