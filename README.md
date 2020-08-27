@@ -22,7 +22,7 @@ Recent research on learned visual descriptors has shown promising improvements i
 
 ## Requirements
 ```bash
-# Create conda environment with torch 1.2.0 and CUDA 10.0
+# Create conda environment with torch 1.0.1 and CUDA 10.0
 conda env create -f environment.yml
 conda activate caps
 ```
