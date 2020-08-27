@@ -183,7 +183,7 @@ class CAPSNet(nn.Module):
         coord2_ef_n, std_f = self.get_expected_correspondence_within_window(feat1_fine, xf2,
                                                                             coord2_ec_n_, with_std=True)
 
-        feat2_coarse = self.sample_feat_by_coord(xc2, coord2_ec_n)
+        feat2_coarse = self.sample_feat_by_coord(xc2, coord2_ec_n_)
         coord1_lc_n, std_lc = self.get_expected_correspondence_locs(feat2_coarse, xc1, with_std=True)
 
         feat2_fine = self.sample_feat_by_coord(xf2, coord2_ef_n)  # Bxnxd

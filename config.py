@@ -58,7 +58,7 @@ def get_args():
     parser.add_argument('--th_cycle', type=float, default=0.025,
                         help='if the distance (normalized scale) from the prediction to epipolar line > this th, '
                              'do not add the cycle consistency loss')
-    parser.add_argument('--th_epipolar', type=float, default=0.3,
+    parser.add_argument('--th_epipolar', type=float, default=0.5,
                         help='if the distance (normalized scale) from the prediction to epipolar line > this th, '
                              'do not add the epipolar loss')
 

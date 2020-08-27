@@ -26,7 +26,7 @@ class CtoFCriterion(nn.Module):
 
         if mask is not None:
             weight *= mask.float()
-            weight /= torch.mean(weight)
+            weight /= (torch.mean(weight) + 1e-8)
         return weight
 
     def epipolar_cost(self, coord1, coord2, fmatrix):
@@ -42,7 +42,7 @@ class CtoFCriterion(nn.Module):
         loss = torch.mean(weight * essential_cost)
         return loss
 
-    def cycle_consistency_loss(self, coord1, coord1_loop, weight, th=10):
+    def cycle_consistency_loss(self, coord1, coord1_loop, weight, th=40):
         '''
         compute the cycle consistency loss
         :param coord1: [batch_size, n_pts, 2]
