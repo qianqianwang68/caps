@@ -35,11 +35,11 @@ pip install opencv-contrib-python==3.4.2.17
 ```
 
 ## Pretrained Model
-Pretrained model can be downloaded using this google drive [link](https://drive.google.com/file/d/1UVjtuhTDmlvvVuUlEq_M5oJVImQl6z1f/view?usp=sharing), or this BaiDuYun [link](https://pan.baidu.com/s/1rGt4okK3KsumPLUVhOJdXQ) (password: 3na7).
+Pretrained model can be downloaded using this google drive [link](https://drive.google.com/file/d/1UVjtuhTDmlvvVuUlEq_M5oJVImQl6z1f/view?usp=sharing), or this BaiduYun [link](https://pan.baidu.com/s/1rGt4okK3KsumPLUVhOJdXQ) (password: 3na7).
 
 
 ## Dataset
-Please download the preprocessed MegaDepth dataset using this google drive [link](https://drive.google.com/file/d/1-o4TRLx6qm8ehQevV7nExmVJXfMxj657/view?usp=sharing) or this BaiDuYun [link](https://pan.baidu.com/s/1rGt4okK3KsumPLUVhOJdXQ) (password: 3na7
+Please download the preprocessed MegaDepth dataset using this google drive [link](https://drive.google.com/file/d/1-o4TRLx6qm8ehQevV7nExmVJXfMxj657/view?usp=sharing) or this BaiduYun [link](https://pan.baidu.com/s/1rGt4okK3KsumPLUVhOJdXQ) (password: 3na7
 
 ## Training
 To start training, please download our [training data](https://drive.google.com/file/d/1-o4TRLx6qm8ehQevV7nExmVJXfMxj657/view?usp=sharing), and run the following command: 
