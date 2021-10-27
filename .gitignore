@@ -3,6 +3,5 @@ CAPS/__pycache__/
 jupyter/.ipynb_checkpoints/
 jupyter/__pycache__/
 logs/
-test/
 out/
 models/
